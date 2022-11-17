@@ -23,7 +23,7 @@ output(getSentence( [ "Bist","du","Max"],"Q"));
 output(getSentence( [ "Ich","bin"],"E"));
 output(getSentence( [ "Ich","hätt","gern","die","Platt","von","dene","zwei","diwodaso","Spass","mache,","habbe","Sie","die"],"Q"));
 
-function output( outputStr1 ) { console.log( outputStr1 ); }
+// function output( outputStr1 ) { console.log( outputStr1 ); }
     // get the strings
 function getSentence( iArr, iSng ) {
     let iArrStr = "";
@@ -34,3 +34,23 @@ function getSentence( iArr, iSng ) {
     }
     return iArrStr + iSngStr;
 }
+
+// output(getSentence)
+// // function getSentence (givenSentence) {
+//     let givenSentence
+//     var index = items.indexof("S");
+
+//     if (~index) {
+//         items[index] = ".";
+
+//     var index = items.indexOf("Q");
+
+//     if (~index) {
+//         items[index] = "?";
+
+//     var index = items.indexOf("E");
+
+//     if (~index) {
+//         items[index] = "!";
+    
+// }
